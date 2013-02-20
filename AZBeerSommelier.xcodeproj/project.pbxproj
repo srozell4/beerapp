@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA75F85E16D55738002AC515 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA75F85D16D55738002AC515 /* UIKit.framework */; };
+		AA75F86016D55738002AC515 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA75F85F16D55738002AC515 /* Foundation.framework */; };
+		AA75F86216D55738002AC515 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA75F86116D55738002AC515 /* CoreGraphics.framework */; };
+		AA75F86816D55738002AC515 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA75F86616D55738002AC515 /* InfoPlist.strings */; };
+		AA75F86A16D55738002AC515 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75F86916D55738002AC515 /* main.m */; };
+		AA75F86E16D55739002AC515 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75F86D16D55739002AC515 /* AppDelegate.m */; };
+		AA75F87016D55739002AC515 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA75F86F16D55739002AC515 /* Default.png */; };
+		AA75F87216D55739002AC515 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA75F87116D55739002AC515 /* Default@2x.png */; };
+		AA75F87416D5573D002AC515 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA75F87316D5573D002AC515 /* Default-568h@2x.png */; };
+		AA75F87716D5573E002AC515 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA75F87516D5573E002AC515 /* MainStoryboard.storyboard */; };
+		AA75F87A16D55747002AC515 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75F87916D55747002AC515 /* FirstViewController.m */; };
+		AA75F87C16D55747002AC515 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = AA75F87B16D55747002AC515 /* first.png */; };
+		AA75F87E16D55747002AC515 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA75F87D16D55747002AC515 /* first@2x.png */; };
+		AA75F88116D55747002AC515 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75F88016D55747002AC515 /* SecondViewController.m */; };
+		AA75F88316D55747002AC515 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = AA75F88216D55747002AC515 /* second.png */; };
+		AA75F88516D55747002AC515 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA75F88416D55747002AC515 /* second@2x.png */; };
+		AA75F88D16D55747002AC515 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA75F88C16D55747002AC515 /* SenTestingKit.framework */; };
+		AA75F88E16D55747002AC515 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA75F85D16D55738002AC515 /* UIKit.framework */; };
+		AA75F88F16D55747002AC515 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA75F85F16D55738002AC515 /* Foundation.framework */; };
+		AA75F89716D55747002AC515 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA75F89516D55747002AC515 /* InfoPlist.strings */; };
+		AA75F89A16D55747002AC515 /* AZBeerSommelierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75F89916D55747002AC515 /* AZBeerSommelierTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA75F89016D55747002AC515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA75F85016D55738002AC515 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA75F85816D55738002AC515;
+			remoteInfo = AZBeerSommelier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA75F85916D55738002AC515 /* AZBeerSommelier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZBeerSommelier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA75F85D16D55738002AC515 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA75F85F16D55738002AC515 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA75F86116D55738002AC515 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA75F86516D55738002AC515 /* AZBeerSommelier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AZBeerSommelier-Info.plist"; sourceTree = "<group>"; };
+		AA75F86716D55738002AC515 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA75F86916D55738002AC515 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA75F86B16D55738002AC515 /* AZBeerSommelier-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZBeerSommelier-Prefix.pch"; sourceTree = "<group>"; };
+		AA75F86C16D55739002AC515 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA75F86D16D55739002AC515 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA75F86F16D55739002AC515 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AA75F87116D55739002AC515 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AA75F87316D5573D002AC515 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AA75F87616D5573E002AC515 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AA75F87816D55742002AC515 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		AA75F87916D55747002AC515 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		AA75F87B16D55747002AC515 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		AA75F87D16D55747002AC515 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		AA75F87F16D55747002AC515 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AA75F88016D55747002AC515 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AA75F88216D55747002AC515 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		AA75F88416D55747002AC515 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		AA75F88B16D55747002AC515 /* AZBeerSommelierTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZBeerSommelierTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA75F88C16D55747002AC515 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AA75F89416D55747002AC515 /* AZBeerSommelierTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AZBeerSommelierTests-Info.plist"; sourceTree = "<group>"; };
+		AA75F89616D55747002AC515 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA75F89816D55747002AC515 /* AZBeerSommelierTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZBeerSommelierTests.h; sourceTree = "<group>"; };
+		AA75F89916D55747002AC515 /* AZBeerSommelierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZBeerSommelierTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA75F85616D55738002AC515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA75F85E16D55738002AC515 /* UIKit.framework in Frameworks */,
+				AA75F86016D55738002AC515 /* Foundation.framework in Frameworks */,
+				AA75F86216D55738002AC515 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA75F88716D55747002AC515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA75F88D16D55747002AC515 /* SenTestingKit.framework in Frameworks */,
+				AA75F88E16D55747002AC515 /* UIKit.framework in Frameworks */,
+				AA75F88F16D55747002AC515 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA75F84E16D55738002AC515 = {
+			isa = PBXGroup;
+			children = (
+				AA75F86316D55738002AC515 /* AZBeerSommelier */,
+				AA75F89216D55747002AC515 /* AZBeerSommelierTests */,
+				AA75F85C16D55738002AC515 /* Frameworks */,
+				AA75F85A16D55738002AC515 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA75F85A16D55738002AC515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA75F85916D55738002AC515 /* AZBeerSommelier.app */,
+				AA75F88B16D55747002AC515 /* AZBeerSommelierTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA75F85C16D55738002AC515 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA75F85D16D55738002AC515 /* UIKit.framework */,
+				AA75F85F16D55738002AC515 /* Foundation.framework */,
+				AA75F86116D55738002AC515 /* CoreGraphics.framework */,
+				AA75F88C16D55747002AC515 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA75F86316D55738002AC515 /* AZBeerSommelier */ = {
+			isa = PBXGroup;
+			children = (
+				AA75F86C16D55739002AC515 /* AppDelegate.h */,
+				AA75F86D16D55739002AC515 /* AppDelegate.m */,
+				AA75F87516D5573E002AC515 /* MainStoryboard.storyboard */,
+				AA75F87816D55742002AC515 /* FirstViewController.h */,
+				AA75F87916D55747002AC515 /* FirstViewController.m */,
+				AA75F87B16D55747002AC515 /* first.png */,
+				AA75F87D16D55747002AC515 /* first@2x.png */,
+				AA75F87F16D55747002AC515 /* SecondViewController.h */,
+				AA75F88016D55747002AC515 /* SecondViewController.m */,
+				AA75F88216D55747002AC515 /* second.png */,
+				AA75F88416D55747002AC515 /* second@2x.png */,
+				AA75F86416D55738002AC515 /* Supporting Files */,
+			);
+			path = AZBeerSommelier;
+			sourceTree = "<group>";
+		};
+		AA75F86416D55738002AC515 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA75F86516D55738002AC515 /* AZBeerSommelier-Info.plist */,
+				AA75F86616D55738002AC515 /* InfoPlist.strings */,
+				AA75F86916D55738002AC515 /* main.m */,
+				AA75F86B16D55738002AC515 /* AZBeerSommelier-Prefix.pch */,
+				AA75F86F16D55739002AC515 /* Default.png */,
+				AA75F87116D55739002AC515 /* Default@2x.png */,
+				AA75F87316D5573D002AC515 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA75F89216D55747002AC515 /* AZBeerSommelierTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA75F89816D55747002AC515 /* AZBeerSommelierTests.h */,
+				AA75F89916D55747002AC515 /* AZBeerSommelierTests.m */,
+				AA75F89316D55747002AC515 /* Supporting Files */,
+			);
+			path = AZBeerSommelierTests;
+			sourceTree = "<group>";
+		};
+		AA75F89316D55747002AC515 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA75F89416D55747002AC515 /* AZBeerSommelierTests-Info.plist */,
+				AA75F89516D55747002AC515 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA75F85816D55738002AC515 /* AZBeerSommelier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA75F89D16D55747002AC515 /* Build configuration list for PBXNativeTarget "AZBeerSommelier" */;
+			buildPhases = (
+				AA75F85516D55738002AC515 /* Sources */,
+				AA75F85616D55738002AC515 /* Frameworks */,
+				AA75F85716D55738002AC515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZBeerSommelier;
+			productName = AZBeerSommelier;
+			productReference = AA75F85916D55738002AC515 /* AZBeerSommelier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA75F88A16D55747002AC515 /* AZBeerSommelierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA75F8A016D55747002AC515 /* Build configuration list for PBXNativeTarget "AZBeerSommelierTests" */;
+			buildPhases = (
+				AA75F88616D55747002AC515 /* Sources */,
+				AA75F88716D55747002AC515 /* Frameworks */,
+				AA75F88816D55747002AC515 /* Resources */,
+				AA75F88916D55747002AC515 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA75F89116D55747002AC515 /* PBXTargetDependency */,
+			);
+			name = AZBeerSommelierTests;
+			productName = AZBeerSommelierTests;
+			productReference = AA75F88B16D55747002AC515 /* AZBeerSommelierTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA75F85016D55738002AC515 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = bnander4;
+			};
+			buildConfigurationList = AA75F85316D55738002AC515 /* Build configuration list for PBXProject "AZBeerSommelier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA75F84E16D55738002AC515;
+			productRefGroup = AA75F85A16D55738002AC515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA75F85816D55738002AC515 /* AZBeerSommelier */,
+				AA75F88A16D55747002AC515 /* AZBeerSommelierTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA75F85716D55738002AC515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA75F86816D55738002AC515 /* InfoPlist.strings in Resources */,
+				AA75F87016D55739002AC515 /* Default.png in Resources */,
+				AA75F87216D55739002AC515 /* Default@2x.png in Resources */,
+				AA75F87416D5573D002AC515 /* Default-568h@2x.png in Resources */,
+				AA75F87716D5573E002AC515 /* MainStoryboard.storyboard in Resources */,
+				AA75F87C16D55747002AC515 /* first.png in Resources */,
+				AA75F87E16D55747002AC515 /* first@2x.png in Resources */,
+				AA75F88316D55747002AC515 /* second.png in Resources */,
+				AA75F88516D55747002AC515 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA75F88816D55747002AC515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA75F89716D55747002AC515 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA75F88916D55747002AC515 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA75F85516D55738002AC515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA75F86A16D55738002AC515 /* main.m in Sources */,
+				AA75F86E16D55739002AC515 /* AppDelegate.m in Sources */,
+				AA75F87A16D55747002AC515 /* FirstViewController.m in Sources */,
+				AA75F88116D55747002AC515 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA75F88616D55747002AC515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA75F89A16D55747002AC515 /* AZBeerSommelierTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA75F89116D55747002AC515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA75F85816D55738002AC515 /* AZBeerSommelier */;
+			targetProxy = AA75F89016D55747002AC515 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA75F86616D55738002AC515 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA75F86716D55738002AC515 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA75F87516D5573E002AC515 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA75F87616D5573E002AC515 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		AA75F89516D55747002AC515 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA75F89616D55747002AC515 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA75F89B16D55747002AC515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA75F89C16D55747002AC515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA75F89E16D55747002AC515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZBeerSommelier/AZBeerSommelier-Prefix.pch";
+				INFOPLIST_FILE = "AZBeerSommelier/AZBeerSommelier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA75F89F16D55747002AC515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZBeerSommelier/AZBeerSommelier-Prefix.pch";
+				INFOPLIST_FILE = "AZBeerSommelier/AZBeerSommelier-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AA75F8A116D55747002AC515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AZBeerSommelier.app/AZBeerSommelier";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZBeerSommelier/AZBeerSommelier-Prefix.pch";
+				INFOPLIST_FILE = "AZBeerSommelierTests/AZBeerSommelierTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AA75F8A216D55747002AC515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AZBeerSommelier.app/AZBeerSommelier";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZBeerSommelier/AZBeerSommelier-Prefix.pch";
+				INFOPLIST_FILE = "AZBeerSommelierTests/AZBeerSommelierTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA75F85316D55738002AC515 /* Build configuration list for PBXProject "AZBeerSommelier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA75F89B16D55747002AC515 /* Debug */,
+				AA75F89C16D55747002AC515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA75F89D16D55747002AC515 /* Build configuration list for PBXNativeTarget "AZBeerSommelier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA75F89E16D55747002AC515 /* Debug */,
+				AA75F89F16D55747002AC515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA75F8A016D55747002AC515 /* Build configuration list for PBXNativeTarget "AZBeerSommelierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA75F8A116D55747002AC515 /* Debug */,
+				AA75F8A216D55747002AC515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA75F85016D55738002AC515 /* Project object */;
+}
