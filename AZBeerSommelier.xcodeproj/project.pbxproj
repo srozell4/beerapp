@@ -28,6 +28,20 @@
 		AA75F88F16D55747002AC515 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA75F85F16D55738002AC515 /* Foundation.framework */; };
 		AA75F89716D55747002AC515 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA75F89516D55747002AC515 /* InfoPlist.strings */; };
 		AA75F89A16D55747002AC515 /* AZBeerSommelierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75F89916D55747002AC515 /* AZBeerSommelierTests.m */; };
+		AA75F8A516D557C6002AC515 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75F8A416D557C6002AC515 /* ThirdViewController.m */; };
+		AA75F8A816D55C90002AC515 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75F8A716D55C90002AC515 /* FourthViewController.m */; };
+		D2688B3816DB36FF005DA28E /* AppIcon30x27.png in Resources */ = {isa = PBXBuildFile; fileRef = D2688B2C16DB36FF005DA28E /* AppIcon30x27.png */; };
+		D2688B3916DB36FF005DA28E /* AppIcon60x55.png in Resources */ = {isa = PBXBuildFile; fileRef = D2688B2D16DB36FF005DA28E /* AppIcon60x55.png */; };
+		D2688B3A16DB36FF005DA28E /* Banner218x50.png in Resources */ = {isa = PBXBuildFile; fileRef = D2688B2E16DB36FF005DA28E /* Banner218x50.png */; };
+		D2688B3B16DB36FF005DA28E /* Banner280x64.png in Resources */ = {isa = PBXBuildFile; fileRef = D2688B2F16DB36FF005DA28E /* Banner280x64.png */; };
+		D2688B3C16DB36FF005DA28E /* FavoritesButton30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = D2688B3016DB36FF005DA28E /* FavoritesButton30x30.png */; };
+		D2688B3D16DB36FF005DA28E /* FavoritesButton60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = D2688B3116DB36FF005DA28E /* FavoritesButton60x60.png */; };
+		D2688B3E16DB36FF005DA28E /* FindanAZBeerButton30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = D2688B3216DB36FF005DA28E /* FindanAZBeerButton30x30.png */; };
+		D2688B3F16DB36FF005DA28E /* FindanAZBeerButton60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = D2688B3316DB36FF005DA28E /* FindanAZBeerButton60x60.png */; };
+		D2688B4016DB36FF005DA28E /* FoodPairingsButton30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = D2688B3416DB36FF005DA28E /* FoodPairingsButton30x30.png */; };
+		D2688B4116DB36FF005DA28E /* FoodPairingsButton60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = D2688B3516DB36FF005DA28E /* FoodPairingsButton60x60.png */; };
+		D2688B4216DB36FF005DA28E /* SetupButton30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = D2688B3616DB36FF005DA28E /* SetupButton30x30.png */; };
+		D2688B4316DB36FF005DA28E /* SetupButton60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = D2688B3716DB36FF005DA28E /* SetupButton60x60.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +83,22 @@
 		AA75F89616D55747002AC515 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA75F89816D55747002AC515 /* AZBeerSommelierTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZBeerSommelierTests.h; sourceTree = "<group>"; };
 		AA75F89916D55747002AC515 /* AZBeerSommelierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZBeerSommelierTests.m; sourceTree = "<group>"; };
+		AA75F8A316D557C6002AC515 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		AA75F8A416D557C6002AC515 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		AA75F8A616D55C8F002AC515 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		AA75F8A716D55C90002AC515 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		D2688B2C16DB36FF005DA28E /* AppIcon30x27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon30x27.png; path = "../../../Supporting Documents/images/AppIcon30x27.png"; sourceTree = "<group>"; };
+		D2688B2D16DB36FF005DA28E /* AppIcon60x55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon60x55.png; path = "../../../Supporting Documents/images/AppIcon60x55.png"; sourceTree = "<group>"; };
+		D2688B2E16DB36FF005DA28E /* Banner218x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Banner218x50.png; path = "../../../Supporting Documents/images/Banner218x50.png"; sourceTree = "<group>"; };
+		D2688B2F16DB36FF005DA28E /* Banner280x64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Banner280x64.png; path = "../../../Supporting Documents/images/Banner280x64.png"; sourceTree = "<group>"; };
+		D2688B3016DB36FF005DA28E /* FavoritesButton30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FavoritesButton30x30.png; path = "../../../Supporting Documents/images/FavoritesButton30x30.png"; sourceTree = "<group>"; };
+		D2688B3116DB36FF005DA28E /* FavoritesButton60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FavoritesButton60x60.png; path = "../../../Supporting Documents/images/FavoritesButton60x60.png"; sourceTree = "<group>"; };
+		D2688B3216DB36FF005DA28E /* FindanAZBeerButton30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FindanAZBeerButton30x30.png; path = "../../../Supporting Documents/images/FindanAZBeerButton30x30.png"; sourceTree = "<group>"; };
+		D2688B3316DB36FF005DA28E /* FindanAZBeerButton60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FindanAZBeerButton60x60.png; path = "../../../Supporting Documents/images/FindanAZBeerButton60x60.png"; sourceTree = "<group>"; };
+		D2688B3416DB36FF005DA28E /* FoodPairingsButton30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FoodPairingsButton30x30.png; path = "../../../Supporting Documents/images/FoodPairingsButton30x30.png"; sourceTree = "<group>"; };
+		D2688B3516DB36FF005DA28E /* FoodPairingsButton60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FoodPairingsButton60x60.png; path = "../../../Supporting Documents/images/FoodPairingsButton60x60.png"; sourceTree = "<group>"; };
+		D2688B3616DB36FF005DA28E /* SetupButton30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SetupButton30x30.png; path = "../../../Supporting Documents/images/SetupButton30x30.png"; sourceTree = "<group>"; };
+		D2688B3716DB36FF005DA28E /* SetupButton60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SetupButton60x60.png; path = "../../../Supporting Documents/images/SetupButton60x60.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +169,10 @@
 				AA75F88016D55747002AC515 /* SecondViewController.m */,
 				AA75F88216D55747002AC515 /* second.png */,
 				AA75F88416D55747002AC515 /* second@2x.png */,
+				AA75F8A316D557C6002AC515 /* ThirdViewController.h */,
+				AA75F8A416D557C6002AC515 /* ThirdViewController.m */,
+				AA75F8A616D55C8F002AC515 /* FourthViewController.h */,
+				AA75F8A716D55C90002AC515 /* FourthViewController.m */,
 				AA75F86416D55738002AC515 /* Supporting Files */,
 			);
 			path = AZBeerSommelier;
@@ -147,6 +181,18 @@
 		AA75F86416D55738002AC515 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D2688B2C16DB36FF005DA28E /* AppIcon30x27.png */,
+				D2688B2D16DB36FF005DA28E /* AppIcon60x55.png */,
+				D2688B2E16DB36FF005DA28E /* Banner218x50.png */,
+				D2688B2F16DB36FF005DA28E /* Banner280x64.png */,
+				D2688B3016DB36FF005DA28E /* FavoritesButton30x30.png */,
+				D2688B3116DB36FF005DA28E /* FavoritesButton60x60.png */,
+				D2688B3216DB36FF005DA28E /* FindanAZBeerButton30x30.png */,
+				D2688B3316DB36FF005DA28E /* FindanAZBeerButton60x60.png */,
+				D2688B3416DB36FF005DA28E /* FoodPairingsButton30x30.png */,
+				D2688B3516DB36FF005DA28E /* FoodPairingsButton60x60.png */,
+				D2688B3616DB36FF005DA28E /* SetupButton30x30.png */,
+				D2688B3716DB36FF005DA28E /* SetupButton60x60.png */,
 				AA75F86516D55738002AC515 /* AZBeerSommelier-Info.plist */,
 				AA75F86616D55738002AC515 /* InfoPlist.strings */,
 				AA75F86916D55738002AC515 /* main.m */,
@@ -257,6 +303,18 @@
 				AA75F87E16D55747002AC515 /* first@2x.png in Resources */,
 				AA75F88316D55747002AC515 /* second.png in Resources */,
 				AA75F88516D55747002AC515 /* second@2x.png in Resources */,
+				D2688B3816DB36FF005DA28E /* AppIcon30x27.png in Resources */,
+				D2688B3916DB36FF005DA28E /* AppIcon60x55.png in Resources */,
+				D2688B3A16DB36FF005DA28E /* Banner218x50.png in Resources */,
+				D2688B3B16DB36FF005DA28E /* Banner280x64.png in Resources */,
+				D2688B3C16DB36FF005DA28E /* FavoritesButton30x30.png in Resources */,
+				D2688B3D16DB36FF005DA28E /* FavoritesButton60x60.png in Resources */,
+				D2688B3E16DB36FF005DA28E /* FindanAZBeerButton30x30.png in Resources */,
+				D2688B3F16DB36FF005DA28E /* FindanAZBeerButton60x60.png in Resources */,
+				D2688B4016DB36FF005DA28E /* FoodPairingsButton30x30.png in Resources */,
+				D2688B4116DB36FF005DA28E /* FoodPairingsButton60x60.png in Resources */,
+				D2688B4216DB36FF005DA28E /* SetupButton30x30.png in Resources */,
+				D2688B4316DB36FF005DA28E /* SetupButton60x60.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +353,8 @@
 				AA75F86E16D55739002AC515 /* AppDelegate.m in Sources */,
 				AA75F87A16D55747002AC515 /* FirstViewController.m in Sources */,
 				AA75F88116D55747002AC515 /* SecondViewController.m in Sources */,
+				AA75F8A516D557C6002AC515 /* ThirdViewController.m in Sources */,
+				AA75F8A816D55C90002AC515 /* FourthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +529,7 @@
 				AA75F89F16D55747002AC515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA75F8A016D55747002AC515 /* Build configuration list for PBXNativeTarget "AZBeerSommelierTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +538,7 @@
 				AA75F8A216D55747002AC515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
