@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Brewer</key>
+	<dict>
+		<key>Oak Creek Brewing Company</key>
+		<string></string>
+		<key>SunUp Brewing Company</key>
+		<string></string>
+		<key>San Tan Brewing</key>
+		<string></string>
+		<key>Gentle Ben&apos;s</key>
+		<string></string>
+		<key>Four Peaks</key>
+		<string>FourPeaks</string>
+		<key>Barrio Brewing</key>
+		<string>Barrio Brewing</string>
+	</dict>
+	<key>Style</key>
+	<dict>
+		<key>Stout</key>
+		<string></string>
+		<key>Porter</key>
+		<string></string>
+		<key>Nut Brown</key>
+		<string></string>
+		<key>Hefeweizen</key>
+		<string></string>
+		<key>IPA</key>
+		<string></string>
+		<key>Amber Ale</key>
+		<string></string>
+		<key>Pilsner</key>
+		<string></string>
+		<key>Pale Ale</key>
+		<string></string>
+		<key>Blonde Ale</key>
+		<string>Blonde Ale</string>
+	</dict>
+	<key>Beer</key>
+	<dict>
+		<key>Epicenter Amber Ale</key>
+		<string></string>
+		<key>Devil&apos;s Ale</key>
+		<string></string>
+		<key>Copperhead Pale Ale</key>
+		<string></string>
+		<key>Red Cat Amber</key>
+		<string></string>
+		<key>Oatmeal Stout</key>
+		<string></string>
+		<key>Kiltlifter</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>

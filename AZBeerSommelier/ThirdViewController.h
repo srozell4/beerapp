@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ThirdViewController : UIViewController
+@interface ThirdViewController : UITableViewController{
+    NSArray *searchResults;
+}
+@property (nonatomic, strong) NSDictionary *theFile;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
 @end
+
