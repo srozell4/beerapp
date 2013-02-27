@@ -14,6 +14,10 @@
 
 @implementation SecondViewController
 
+- (IBAction)pressedIPA:(id)sender {
+    
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

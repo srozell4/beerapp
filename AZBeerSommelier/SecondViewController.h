@@ -15,4 +15,10 @@
 @property (weak, nonatomic) IBOutlet UITextField *city;
 @property (weak, nonatomic) IBOutlet UITextField *state;
 
+-(IBAction)pressedIPA:(id)sender;
+
+
 @end
+
+
+IBOutlet UIImageView *imageButton;
